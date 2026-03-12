@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+
+<body>
+
+<section id="contact">
+    <h2>Contact Form</h2>
+
+<form>
+<fieldset>
+<legend>Contact Info</legend>
+Username:
+<input type="text" name="username"><br>
+
+Email:
+<input type="text" name="email"><br>
+
+Telephone:
+<input type="text" name="telephone"><br><br>
+
+</fieldset>
+
+<fieldset>
+<legend>Job Positions</legend>
+
+<input type="checkbox" name="position" value="Account Executive"> Account Executive<br>
+
+<input type="checkbox" name="position" value="Business Development"> Business Development<br>
+
+<input type="checkbox" name="position" value="Inside Sales"> Inside Sales<br>
+
+<input type="checkbox" name="position" value="Sales Manager"> Sales Manager<br>
+
+<input type="checkbox" name="position" value="VP Sales"> VP Sales<br>
+
+</fieldset>
+
+<fieldset>
+<legend>Additional Information</legend>
+
+<!-- Drop-down list -->
+<label for="positionType">Type of Position:</label>
+<select name="positionType" id="positionType">
+    <option value="fulltime">Full Time</option>
+    <option value="partime">Part Time</option>
+    <option value="contract">Contract</option>
+    <option value="internship">Internship</option>
+</select>
+
+<br><br>
+
+<!-- Radio button -->
+<label>Willingness to Relocate</label><br>
+
+<input type="radio" name="relocate" value="yes"> Yes<br>
+<input type="radio" name="relocate" value="no"> No<br>
+
+<br>
+
+<!-- Buttons -->
+<input type="radio" value="Submit">
+<input type="reset" value="Reset">
+
+</fieldset>
+
+<br>
+
+<input type="submit" value="Submit">
+
+</form>
+</section>
+
+<footer>
+    <p>© 2026 Theo Phofedi</p>
+</footer>
+
+</body>
+</html>
